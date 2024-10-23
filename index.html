@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média do SISU</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="./script.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <a class="titulo" href="index.html">Calculadora de média do SISU<a>
+        <a class="sobre" href="about.html">sobre</a>
+    </header>
+    <main>
+        <section class="calculo">
+            <section class="medias">
+                <section class="Cluster4primeiros">
+                    <div class="Esquerda">
+                    
+                        <div>
+                        <p class = "legenda">Linguagens</p>
+                        <input type="number" id="linguagensNota">
+                        </div>
+                        <div>
+                            <p class = "legenda"> Natureza</p>
+                            <input  type="number" id="naturezaNota">
+                        </div>
+                    
+                    </div>
+                    <div class="direita">
+                        <div>
+                            <p class = "legenda">Humanas</p>
+                            <input type="number" id="humanasNota">
+                        </div>
+                        <div>
+                            <p class = "legenda">Matemática</p>
+                            <input type="number" id="matematicaNota">
+                        </div>
+        
+                </section>
+                
+                <div>
+                    <p class = "legenda">Redação</p>
+                    <input  type="number" id="redacaoNota">
+                    
+                </div>
+                <button class="botaoCalcular" onclick="mediaPesos()" id="botaoResultado">Calcular!</button>
+                
+            </section>
+            
+
+            <section class="divPesos" id="divPesos">
+                <h2 class="headerPesos">Pesos</h2>
+                <select id="listaCursos" onchange="mudaPeso()" class="listaCursos">
+                    <option>Selecione um curso abaixo</option>
+                </select>
+                <div class="exibePesos">
+                    <div class="divPesosEsquerda">
+                        
+                        <div>
+                            <p class="legenda">Linguagens</p>
+                            <p id="pesoLing" class="peso"> 0</p>
+                        </div>
+                        
+                        <div>
+                            <p class="legenda">Natureza</p>
+                            <p id="pesoNat" class="peso">0</p>
+                        </div>
+                        
+                    </div>
+                    <div ckass="divPesosDireita">
+                        <div>
+                            <p class="legenda">Humanas</p>
+                            <p id="pesoHum" class="peso">0</p>
+                        </div>
+                        <div>
+                            <p class="legenda">Matemática</p>
+                            <p id="pesoMat" class="peso">0</p>
+                        </div>   
+                    </div>
+                </div>
+                <div>
+                    <p class="legenda">Redação</p>
+                    <p id="pesoRed" class="peso">0</p>
+                </div>
+                
+                
+                
+            </section>           
+
+        
+       
+        </section>
+    </section>
+    <section class="resultado">
+        
+        <h1 id="CampoDeResultado"> </h1>   
+    </section>
+        
+    </main>
+</body>
+</html>
