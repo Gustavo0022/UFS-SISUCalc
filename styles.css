@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root{
   --main-text-color: #4e8dfb;
   --background-color: #000000;
   --tert-color: #000000;
-  --main-font: "Raleway", sans-serif;
+  --main-font: "Poppins", sans-serif;
 }
 *{
   margin: 0;
@@ -22,7 +22,7 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: black;
+  background-color: var(--tert-color);
 }
 .titulo{
   font-family: var(--main-font);
@@ -44,6 +44,7 @@ body{
   gap: 40px;
   
   padding: 40px 20px;
+
   
 }
 
@@ -116,12 +117,13 @@ input{
   font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
-.medias{
+.camposNota{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+
 }
 
 .Cluster4primeiros{
@@ -133,6 +135,9 @@ input{
 .botaoCalcular{
   padding: 10px 40px;
   font-size: 2rem;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
+  color: var(--main-text-color);
+  background-color: var(--background-color);
+  border-radius: 24px;
 }
