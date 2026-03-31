@@ -1,7 +1,9 @@
 # UFS-SISUCalc
-Calculadora da média ponderada dos cursos da Universidade Federal de Sergipe 
+Calculadora da média ponderada dos cursos da Universidade Federal de Sergipe.
 
 Esta calculadora tem como objetivo facilitar o cálculo da média para entrada nos cursos da Universidade Federal de Sergipe - Campus Sede, utilizando a média ponderada de cada um dos cursos disponíveis.
+
+Os dados foram retirados do Termo de Adesão da Universidade, disponível [aqui](https://sisu.ufs.br/uploads/content_attach/path/42357/termo_adesao_2026_UFS_-_20251204.pdf)
 
 Este projeto foi feito com HTML, CSS e JavaScript. Os cursos disponíveis e pesos foram obtidos com o Termo de Adesão da universidade, e processados utilizando o Power Automate
 
